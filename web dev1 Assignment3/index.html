@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Assignment 3</title>
+    <link rel="stylesheet" href="style1.css">
+<body id="body">
+    <header id="head"> 
+    <nav><h1 id="name">ZISHAN ZAFFAR</h1></nav>  
+    <hr>     
+   <nav id="heading" aria-label="main navigation">
+    <div id="b1"><a href="#skills" class="skill">Skill</a></div> 
+    <div id="b2"><a href="#form" class="contact-form">contact form</a></div>
+    <div id="b3"><a href="#project" class="project">Project</a></div>
+    <div id="b4"><a href="#about" class="about">About</a></div> 
+</nav></header>
+     <main>    
+      <hr class="hr">   
+       <h2 id="about"><b>Welcome to my protfolio</b></h2>
+       <div id="picture">
+        <div id="p1"><h3 id="intro">Hello! I am a B.Tech CSE core 'Web Development' student.
+       This is my personal portfolio website.</h3><h4 id="intro">I am focused on foundational internet technologies. I emphasize writing valid, semantic HTML that ensures documents are readily accessible to screen readers, search engine crawlers, and text-based browsers.</h4></div> 
+     <div id="p2"><img id="profile" src="Image.JPG" height="300px" width="300px"></div>
+     </div>
+     <hr class="hr">
+<h2 id="skills">Skill</h2> 
+<table  border="4"cellpadding="5"  cellspacing="1" class="table">
+    <thead>
+        <caption id="caption" >Web Devlopment skills</caption>
+        <tr><th class="th1">Skills</th>
+        <th class="th2">Level</th></tr>
+    </thead>
+    <tbody>
+        <tr><td>HTML</td>
+            <td>Intermediate</td>
+        </tr>
+        <tr><td>CSS</td>
+            <td>Beginner</td>
+        </tr>
+        <tr><td>JAVASCRIPT</td>
+            <td>Learning</td>
+        </tr>
+    </tbody>
+</table>
+<hr class="hr">
+<h2 id="project">My Project</h2>
+<div id="a1"><img src="1.png" alt="my project" hight="90px" width="350px"></div>
+<div id="a1"><img src="2.png" alt="my project" hight="90px" width="350px"></div>
+<hr class="hr">
+ <form action="/action.php" id="form">
+<h2 id="contact">Contact form</h2>
+<hr class="hr">
+      <label id="name">
+      <b>Name:</b><input type="text" name="name" placeholder="enter your name" pattern="[A-Z a-z]+"></label>
+      <br>
+      <label id="password">
+      <b>Password:</b><input type="password" name="password" placeholder="enter password"  minlength="6" maxlength="10"></label>
+      <br>
+      <label id="male">
+      <b>Enter Gender:</b><input type="radio" value="male" name="gender">male
+      </label>
+      <label id="female">
+        <input type="radio" value="female" name="gender">female
+      </label>
+      <label id="other">
+        <input type="radio" value="other" name="gender">other
+      </label>
+      <br>
+      <b class="f1">Enter Date of Birth:</b>
+      <label id="dob">
+      <input type="date" name="DOB" placeholder="enter your DOB" min="2000-01-01" max="2026-09-18"></label>
+      <br>
+      <label id="contect">
+      <b>Contact Number:</b><input type="tel" name="contact"  placeholder="enter contact number" pattern="[6-9]{1}[0-9]{9}" maxlength="10">
+      </label>
+      <br>
+      <label id="mail">
+      <b>Enter Email:</b><input type="email" name="email" placeholder="enter your email" >
+      </label>
+      <br>
+      <b class="f1">Select Country:</b>
+      <select name="country" id="country">
+        <option value="india">india</option>
+        <option value="usa">usa</option>
+        <option value="uk">uk</option>
+        <option value="australia">australia</option>
+      </select>
+      <br>
+    <b class="f1">Enter Feedback:</b>
+      <textarea name="feedback" id="feedback" placeholder="enter your feedback in experience of our website " cols="30" rows="2"></textarea>
+      <br>
+      <label>
+        <input type="checkbox" name="terms" required id="terms"> I accept the terms and conditions*
+      </label>
+      <br>
+      <div id="button-container">
+      <div><button type="reset" id="reset">reset</button></div>
+      <div><button type="submit" id="submit">submit</button></div>
+      </div>
+    </form>  
+    <a href="#body" class="back-to-top">^ Back to top</a>
+    </main>
+    <footer class="footer">
+        <h4 id="extro">@zishanzaffar 2026</h4>
+        <h3 id="extro1">follow us on</h3>
+     <aside id="aside">
+     <div id="instagram"><a  href="https://www.instagram.com/zishan_zaffarx/" target="_blank"><img src="https://www.bing.com/th/id/OIP.fNdYnbLL5ZOf4A7isn_kbwHaHa?w=193&h=193&c=8&rs=1&qlt=90&o=6&pid=ImgAns&rm=2" height="50px" width="50px"></a></div>
+     <div id="facebook"><a id="facebook" href="https://www.facebook.com/profile.php?id=100079655310305" target="_blank"><img src="https://i.pinimg.com/236x/d1/bf/a9/d1bfa97a3dd4a8b4eedea7d53f0f3e7a.jpg?nii=t" height="50px" width="50px"></a></div>
+     <div id="snapchat"><a  href="https://accounts.snapchat.com/v2/welcome" target="_blank"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtm7DY6h-6JsTTbjtl_DmTI2sDmaQ83rgQzy6NGxsupQ&s=10" height="50px" width="50px"></a></div>
+    <div id="linkin"><a  href="https://www.linkedin.com/in/zishan-zaffar-99b423426/?isSelfProfile=true" target="_blank"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxNRiTV1UJmwO2Z0oqPU_aTyXZHtylLBJkLbgKABBQoQ&s=10" height="50px" width="50px"></a></div>
+    </aside>
+    </footer> 
+</body>    
+</html>
